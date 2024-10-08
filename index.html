@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>色組み合わせジェネレーター</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>色組み合わせジェネレーター</h1>
+        <div class="clothes">
+            <div class="top" id="top"></div>
+            <div class="bottom" id="bottom"></div>
+        </div>
+        <div class="controls">
+            <label for="topColor">トップスの色:</label>
+            <input type="color" id="topColor">
+            <label for="bottomColor">ボトムスの色:</label>
+            <input type="color" id="bottomColor">
+            <button id="randomizeButton">おまかせボタン</button>
+            <button id="saveButton">お気に入りに保存</button>
+        </div>
+        <div class="favorites-link">
+            <a href="favorites.html">お気に入りを見る</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
